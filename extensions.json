@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-java-dependency",
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-maven",
+        "redhat.vscode-xml",
+        "streetsidesoftware.code-spell-checker",
+        "shengchen.vscode-checkstyle",
+        "sonarsource.sonarlint-vscode"
+    ]
+}

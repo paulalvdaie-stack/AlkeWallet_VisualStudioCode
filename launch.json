@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run AlkeWallet",
+            "request": "launch",
+            "mainClass": "com.alkemy.wallet.Main",
+            "projectName": "alke-wallet",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug AlkeWallet",
+            "request": "launch",
+            "mainClass": "com.alkemy.wallet.Main",
+            "projectName": "alke-wallet",
+            "console": "integratedTerminal",
+            "stopOnEntry": false
+        },
+        {
+            "type": "java",
+            "name": "Run Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run All Tests",
+            "request": "launch",
+            "mainClass": "",
+            "projectName": "alke-wallet",
+            "console": "integratedTerminal",
+            "args": "",
+            "preLaunchTask": "test"
+        }
+    ]
+}
